@@ -1,8 +1,11 @@
 # ARKてとら鯖設定情報
 
 身内向けサーバーの設定値です。
+
 設定ファイルに記入している部分以外は紹介を省きます。
+
 また、イベント等に影響して一時的に変更になる場合があります。
+
 PvPモードに関連する記述や動作マップ以外の設定項目も含まれますが、このサーバーはPvEモードかつTheIslandで運営しています。
 
 ## Game.ini
@@ -172,11 +175,13 @@ Genesisにおいてミッションは有効です。
 恐竜の赤ちゃんの刷り込み猶予を超過した際の刷り込み品質損失倍率は0.1倍です。
 
 >WildDinoCharacterFoodDrainMultiplier=1.000000
+
 >TamedDinoCharacterFoodDrainMultiplier=1.000000
 
 恐竜の食料消費速度倍率は野生、テイム済み共に1倍です。
 
 >WildDinoTorporDrainMultiplier=1.000000
+
 >TamedDinoTorporDrainMultiplier=1.000000
 
 恐竜の気絶値が下がる速度倍率は野生、テイム済み共に1倍です。
@@ -186,6 +191,7 @@ Genesisにおいてミッションは有効です。
 手渡しテイムのインターバルは1倍です。
 
 >ResourceNoReplenishRadiusPlayers=1.000000
+
 >ResourceNoReplenishRadiusStructures=1.000000
 
 資源のリポップの際の建造物やプレイヤーからの距離倍率は1倍です。
@@ -199,6 +205,7 @@ Genesisにおいてミッションは有効です。
 肉やベリーの腐敗時間の倍率は1倍です。
 
 >GlobalItemDecompositionTimeMultiplier=1.000000
+
 >GlobalCorpseDecompositionTimeMultiplier=1.000000
 
 死亡時のアイテムや捨てたアイテムの消滅時間の倍率は1倍です。
@@ -224,9 +231,13 @@ Genesisにおいてミッションは有効です。
 頭髪や顔ひげの伸びる速度倍率は1倍です。
 
 >CraftXPMultiplier=1.000000
+
 >GenericXPMultiplier=1.000000
+
 >HarvestXPMultiplier=1.000000
+
 >KillXPMultiplier=1.000000
+
 >SpecialXPMultiplier=1.000000
 
 経験値取得に関する倍率は一律1倍です。
@@ -252,6 +263,7 @@ PvPエリアにおいて、構造物のダメージ倍率は6倍になります�
 構造体の設置衝突判定は有効です。
 
 >bLimitTurretsInRange=False
+
 >bHardLimitTurretsInRange=False
 
 タレットの設置に関する制限はありません。
@@ -261,15 +273,25 @@ PvPエリアにおいて、構造物のダメージ倍率は6倍になります�
 Genesisのミッションエリアでの構造体の設置が可能です。
 
 >PerLevelStatsMultiplier_Player[0]=1.3
+
 >PerLevelStatsMultiplier_Player[1]=1.3
+
 >PerLevelStatsMultiplier_Player[3]=1.3
+
 >PerLevelStatsMultiplier_Player[4]=1.3
+
 >PerLevelStatsMultiplier_Player[5]=1.3
+
 >PerLevelStatsMultiplier_Player[6]=1.3
+
 >PerLevelStatsMultiplier_Player[7]=1.3
+
 >PerLevelStatsMultiplier_Player[8]=1.3
+
 >PerLevelStatsMultiplier_Player[9]=1.3
+
 >PerLevelStatsMultiplier_Player[10]=1.3
+
 >PerLevelStatsMultiplier_Player[11]=1.3
 
 各ステータスのレベルアップ時の上昇倍率は1.3です。
@@ -286,15 +308,21 @@ PvEモードにおいて洞窟内での建築を許可しています。
 >EnableExtraStructurePreventionVolumes=False
 
 鉱脈や特定の資源の密集した地域の発生を抑える設定？だと思われます。
+
 このサーバーではこういった鉱脈の類は存在する設定です。
 
 >NoTributeDownloads=True
+
 >PreventUploadSurvivors=True
+
 >PreventUploadItems=True
+
 >PreventUploadDinos=True
+
 >CrossARKAllowForeignDinoDownloads=False
 
 各マップのサバイバーや恐竜の移転を無効化しています。
+
 このサーバーでは複数マップを同時に運営していないので影響なし。
 
 >PreventOfflinePvP=False
@@ -338,6 +366,7 @@ Genesisにおいて、Tekスーツの着用が禁じられるエリアがあり�
 近接チャットは無効です。（ローカル）
 
 >alwaysNotifyPlayerLeft=True
+
 >alwaysNotifyPlayerJoined=True
 
 ログイン、ログアウト通知が有効です。
@@ -355,6 +384,7 @@ Genesisにおいて、Tekスーツの着用が禁じられるエリアがあり�
 マップに自分の位置が出ます。
 
 >EnablePVPGamma=True
+
 >DisablePvEGamma=False
 
 ガンマ値設定が変更できます。
@@ -372,11 +402,13 @@ Genesisにおいて、Tekスーツの着用が禁じられるエリアがあり�
 PvEモード時、飛行恐竜がほかの恐竜やプレイヤーをつかめます。
 
 >PlayerCharacterWaterDrainMultiplier=0.500000
+
 >PlayerCharacterFoodDrainMultiplier=0.500000
 
 プレイヤーの食料や水の消費倍率は1倍です。
 
 >TamedDinoDamageMultiplier=1.000000
+
 >TamedDinoResistanceMultiplier=1.000000
 
 テイム済み恐竜のダメージ・被ダメージ倍率は1倍です。
@@ -394,11 +426,15 @@ PvEモード時、飛行恐竜がほかの恐竜やプレイヤーをつかめ�
 また、レイド恐竜の食料の消費速度は1倍です。
 
 >DisableDinoDecayPvE=True
+
 >PvPDinoDecay=False
+
 >AutoDestroyDecayedDinos=False
+
 >PvEDinoDecayPeriodMultiplier=1.000000
 
 しばらくログインしなかった場合のテイム済み恐竜の減衰はありません。
+
 また、仮に減衰したとしても勝手には消滅しません。
 
 >MaxPersonalTamedDinos=4000.000000
@@ -450,6 +486,7 @@ PvPモード時の構造物の自然消滅はありません。
 構造体は救援物資の落下地点には設置できません。
 
 >DisableStructureDecayPVE=True
+
 >AutoDestroyOldStructuresMultiplier=0.000000
 
 PvEモード時、構造体は自然消滅しません。
@@ -463,7 +500,9 @@ PvEモード時、構造体は自然消滅しません。
 水道管はつながっていない場合でも壊れません。
 
 >AlwaysAllowStructurePickup=False
+
 >StructurePickupTimeAfterPlacement=30.000000
+
 >StructurePickupHoldDuration=0.500000
 
 構造体は回収可能になるまでに設置から30秒掛かります。また、ホイールメニューで0.5秒ホールドする必要があります。
