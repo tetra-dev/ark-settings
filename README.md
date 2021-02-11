@@ -158,7 +158,7 @@ Genesisにおいてミッションは有効です。
 
 恐竜の赤ちゃんの食料消費速度倍率は1倍です。
 
->BabyImprintingStatScaleMultiplier=1.000b000
+>BabyImprintingStatScaleMultiplier=1.000000
 
 恐竜の赤ちゃんの刷り込みによるステータスボーナス倍率は1倍です。
 
